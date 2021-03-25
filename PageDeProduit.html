@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Produits</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="menu_secondaire">
+            <ul>
+                <li><a href="">?</a></li>
+                <li><a href="">Mon compte</a></li>
+                <li><a href="">EN</a></li>
+            </ul>
+        </nav>
+        <div class="LogoRecherchePanier">
+            <picture class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </picture>
+            <div class="champDeRecherche">
+                <select name="Categories" id="Categories">
+                    <option value="Tout">Tout</option>
+                </select>
+                <input type="text" placeholder="Recherche.." name="recherche">
+                <button type="submit"><img src="images/loupe.png" alt="loupe"></button>
+            </div>
+            <div class="panier">
+                <a href=""><img src="images/panier.png" alt="panier"><span>0.00 $</span></a>
+                
+            </div>
+        </div>
+        <nav class="menu_principale">
+            <ul>
+                <li class="parent_menu_deroulant"><a href="PageDeProduit.html">Épicerie en ligne</a>
+                    <ul class="menu_deroulant">
+                        <li><a href="PageDeProduit.html">Boulangerie</a></li>
+                        <li><a href="PageDeProduit.html">Charcuteries</a></li>
+                        <li><a href="PageDeProduit.html">Fromagerie</a></li>
+                        <li><a href="PageDeProduit.html">Poissonerie</a></li>
+                        <li><a href="PageDeProduit.html">Boucherie</a></li>
+                        <li><a href="PageDeProduit.html">Fruits et Legumes</a></li>
+                    </ul>                
+                </li>
+                <li><a href="">Circulaire</a></li>
+                <li><a href="">Recettes</a></li>
+                <li><a href="">À decouvrir</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="pageProduit">
+        <button class="bouton_filtre">Filtre >></button>
+        <section class="filtre">
+            <button class="bouton_ferme">X</button>
+            <h3>Filtrer par:</h3>     
+            <div class="categories">
+                <a href="">Boulangerie(212)</a>
+                <a href="">Charcuteries(150)</a>
+                <a href="">Fromagerie(132)</a>
+                <a href="">Poissonerie(365)</a>
+                <a href="">Boucherie(289)</a>
+                <a href="">Fruits et Legumes(366)</a>
+                <a href="">Voir  plus</a>
+            </div>
+            <div class="allees">
+                <h3>Allées:</h3>
+                <a href="">Poissons et fruits de mer (212)</a>
+                <a href="">Pains et pâtisseries (150)</a>
+                <a href="">Produits laitiers et œufs(132)</a>
+                <a href="">Viandes(365)</a>
+                <a href="">Charcuteries(289)</a>
+                <a href="">Fruits et Legumes(366)</a>
+                <a href="">Voir  plus</a>
+            </div>
+            <div class="marquse">
+                <h3>Marques:</h3>
+                <a href="">Jell-O (12)</a>
+                <a href="">McCain (15)</a>
+                <a href="">Oasis(32)</a>
+                <a href="">Le Choix du Président(35)</a>
+                <a href="">St Hubert(29)</a>
+                <a href="">Selection(36)</a>
+                <a href="">Voir  plus</a>       
+            </div>
+            <div class="filtrePromotions">
+                <h3>Promotions:</h3>
+                <a href="">Toutes les promotions (1236)</a>
+            </div>
+            <div class="filtreProduits">
+                <h3>Produits:</h3>
+                <a href="">Nouveaux (12)</a>
+                <a href="">Populaires (15)</a>
+                <a href="">Dans les circulaires (32</a>
+                <a href="">Biologique (35)</a>
+                <a href="">Sans gluten (29)</a>
+                <a href="">Voir  plus</a>        
+            </div>
+        </section>
+        <div class="produits">
+            <div class="trierPagination">
+                <div class="triePar">
+                    <span>Trier par:</span>
+                    <select name="TriePar" id="TriePar">
+                        <option value="Pertinence">Pertinence</option>
+                    </select>
+                </div>
+                <div class="pagination">
+                    <a href="">	&#9665;</a>
+                    <a href="">1</a>
+                    <a href="">2</a>
+                    <a href="" class="courant">3</a>
+                    <a href="">4</a>
+                    <a href="">5</a>
+                    <a href="">&#9655;</a>
+                </div>
+            </div>
+            <div class="grilleProduit">
+                <article>
+                    <img src="images/produit/ananas250x250.jpg" alt="ananas">
+                    <p>Ananas décortiquée</p>
+                    <h3>1 un 4.99$</h3>
+                    <p>4,99 $ / UNITE</p>
+                    <a href="">Ajouter au panier</a>
+                </article>
+                <article>
+                    <img src="images/produit/Clémentines250x250.jpg" alt="Clémentines">
+                    <p>Clémentines</p>
+                    <h3>3,49 $ / lbs</h3>
+                    <p>env. 1,23 $ / unité</p>
+                    <a href="">Ajouter au panier</a>
+                </article>
+                <article>
+                    <img src="images/produit/frase250x250.jpg" alt="frase">
+                    <p>Fraises</p>
+                    <h3>4,99 $ / 454 g</h3>
+                    <p>1,10 $ / 100 G.</p>
+                    <a href="">Ajouter au panier</a>
+                </article>
+                <article>
+                    <img src="images/produit/Bleuets250x250.jpg" alt="Bleuets">
+                    <p>Bleuets chopine</p>
+                    <h3>3,99 $ </h3>
+                    <p>3,99 $ / UNITE</p>
+                    <a href="">Ajouter au panier</a>
+                </article>
+                <article>
+                    <img src="images/produit/limon250x250.jpg" alt="Citron">
+                    <p>Citron gros</p>
+                    <h3>0,99 $ </h3>
+                    <p>0,99 $ / UNITE</p>
+                    <a href="">Ajouter au panier</a>
+                </article>
+                <article>
+                    <img src="images/produit/framboise250x250.jpg" alt="framboise">
+                    <p>Framboises</p>
+                    <h3>4,99 $ / 170g</h3>
+                    <p>2,94 $ / 100 G.</p>
+                    <a href="">Ajouter au panier</a>
+                </article>
+                <article>
+                    <img src="images/produit/melondeau250x250.jpg" alt="Melon d'eau">
+                    <p>Melon d'eau</p>
+                    <h3>5,99 $ </h3>
+                    <p>5,99 $ / UNITE</p>
+                    <a href="">Ajouter au panier</a>
+                </article>
+                <article>
+                    <img src="images/produit/peche250x250.jpg" alt="peche">
+                    <p>Nectarine grosse</p>
+                    <h3>2,99 $ / lbs</h3>
+                    <p>env. 1,32 $ / unité </p>
+                    <a href="">Ajouter au panier</a>
+                </article>
+                <article>
+                    <img src="images/produit/bananes250x250.jpg" alt="bananes">
+                    <p>Banane</p>
+                    <h3>0,79 $ / lbs</h3>
+                    <p>env. 0,37 $ / unité</p>
+                    <a href="">Ajouter au panier</a>
+                </article>
+                <article>
+                    <img src="images/produit/Mangue250x250.jpg" alt="Mangue">
+                    <p>Mangue</p>
+                    <h3>2,79 $</h3>
+                    <p>2,79 $ / UNITE</p>
+                    <a href="">Ajouter au panier</a>
+                </article>
+                <article>
+                    <img src="images/produit/Pamplemousse250x250.jpg" alt="Pamplemousse">
+                    <p>Pamplemousse</p>
+                    <h3>2,29 $</h3>
+                    <p>2,29 $ / UNITE</p>
+                    <a href="">Ajouter au panier</a>
+                </article>
+                <article>
+                    <img src="images/produit/Pitahayadragon250x250.jpg" alt="Pitahayadragon">
+                    <p>Pitahaya dragon</p>
+                    <h3>3,00 $</h3>
+                    <p>3,00 $ / UNITE</p>
+                    <a href="">Ajouter au panier</a>
+                </article>
+            </div>
+            <div class="trierPagination">
+                <div></div>
+                <div class="pagination">
+                    <a href="">	&#9665;</a>
+                    <a href="">1</a>
+                    <a href="">2</a>
+                    <a href="" class="courant">3</a>
+                    <a href="">4</a>
+                    <a href="">5</a>
+                    <a href="">&#9655;</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="sociaux">
+            <div class="AproposDeNous">
+                <h3>À propos de nous</h3>
+                <a href="">Notre histoire</a>
+                <a href="">Alimentation</a>
+            </div>
+            <div class="Enligne">
+                <h3>En ligne</h3>
+                <a href="">Épicerie en ligne</a>
+            </div>
+            <div class="ServiceClientele">
+                <h3>Services à la clientèle</h3>
+                <a href="">Nous contacter</a>
+            </div>
+            <div class="reseauxSociaux">
+                <picture><img src="images/ReseauSociaux/facebook.png" alt="facebook"></picture>
+                <picture><img src="images/ReseauSociaux/49411.png" alt="youtube"></picture>
+                <picture><img src="images/ReseauSociaux/Sticker_instagram.png" alt="instagram"></picture>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+<script src="js/filtre.js"></script>
+
+</html>

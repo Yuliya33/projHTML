@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /projHTML/
+RewriteRule ^.*html$ index.html [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.html [L]

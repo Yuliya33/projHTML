@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Accueil</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Doppio+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="menu_secondaire">
+            <ul>
+                <li><a href="">?</a></li>
+                <li><a href="">Mon compte</a></li>
+                <li><a href="">EN</a></li>
+            </ul>
+        </nav>
+        <div class="LogoRecherchePanier">
+            <picture class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </picture>
+            <div class="champDeRecherche">
+                <select name="Categories" id="Categories">
+                    <option value="Tout">Tout</option>
+                </select>
+                <input type="text" placeholder="Recherche.." name="recherche">
+                <button type="submit"><img src="images/loupe.png" alt="loupe"></button>
+            </div>
+            <div class = "panier">
+                <a href=""><img src="images/panier.png" alt="panier"><span>0.00 $</span></a>
+            </div>
+        </div>
+        <nav class="menu_principale">
+            <ul>
+                <li class="parent_menu_deroulant"><a href="PageDeProduit.html">Épicerie en ligne</a>
+                    <ul class="menu_deroulant">
+                        <li><a href="PageDeProduit.html">Boulangerie</a></li>
+                        <li><a href="PageDeProduit.html">Charcuteries</a></li>
+                        <li><a href="PageDeProduit.html">Fromagerie</a></li>
+                        <li><a href="PageDeProduit.html">Poissonerie</a></li>
+                        <li><a href="PageDeProduit.html">Boucherie</a></li>
+                        <li><a href="PageDeProduit.html">Fruits et Legumes</a></li>
+                    </ul>                
+                </li>
+                <li><a href="">Circulaire</a></li>
+                <li><a href="">Recettes</a></li>
+                <li><a href="">À decouvrir</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="carousel">
+            <div class="Recette_1 actif">
+                <img src="images/recettes/recettes6.jpg" alt="recette">
+                <div class="texte"> 
+                    <p>Facile et économique</p>
+                    <p>"Poulet aux légumes et fruits croquants"</p>
+                    <a href="">Voir la recette</a>
+                </div>
+              </div>
+              <div class="Recette_2">
+                <img src="images/recettes/recettes2.jpg" alt="recette">
+                <div class="texte">
+                    <p>Découvrez cette recette de</p>
+                    <p>"Filet de porc farci aux asperges et aux tomates"</p>
+                    <a href="">Voir la recette</a>
+                </div>
+              </div>
+              <div class="Recette_3">
+                <img src="images/recettes/recettes.jpg" alt="recette">
+                <div class="texte">
+                    <p>Délicieux plat exotique</p>
+                    <p>"Sauté de crevettes aux légumes"</p>
+                    <a href="">Voir la recette</a>
+                </div>
+              </div>
+    
+              <a class="precedent">&#10094;</a>
+              <a class="suivant">&#10095;</a>
+              
+              <p class="pointes">
+                <span class="pointe p_actif"></span> 
+                <span class="pointe"></span> 
+                <span class="pointe"></span>
+              </p>  
+            </div>
+
+        <div class="promotions">
+            <picture><img src="images/promotions/lobster_400x271.jpg" alt="homard"></picture>
+            <picture><img src="images/promotions/fruits-et-legumes400x271.jpg" alt="fruits et legumes"></picture>
+            <picture><img src="images/promotions/boeuf400x271.jpg" alt="boeuf"></picture>  
+        </div>
+    
+        <section class="presentationProduits">
+            <div>
+                <img src="images/categorie/boucherie400x320.jpg" alt="boucherie" class="img_grande">
+                <img src="images/categorie/boucherie600x320.jpg" alt="boucherie" class="img_mobile">
+                <h2>Boucherie</h2>
+            </div>
+            <div>
+                <img src="images/categorie/poissonnerie400x320.jpg" alt="poissonnerie" class="img_grande">
+                <img src="images/categorie/poissonnerie600x320.jpg" alt="poissonnerie" class="img_mobile">
+                <h2>Poissonerie</h2>
+            </div>
+            <div>
+                <img src="images/categorie/boulangerie400x320.jpg" alt="boulangerie" class="img_grande">
+                <img src="images/categorie/boulangerie600x320.jpg" alt="boulangerie" class="img_mobile">
+                <h2>Boulangerie</h2>
+            </div>
+            <div>
+                <img src="images/categorie/charcuterie2_400x320_.jpg" alt="charcuterie" class="img_grande">
+                <img src="images/categorie/charcuterie_600x320.jpg" alt="charcuterie" class="img_mobile">
+                <h2>Charcuterie</h2>
+            </div>
+            <div>
+                <img src="images/categorie/fromagerie2_400x320.jpg" alt="fromagerie" class="img_grande">
+                <img src="images/categorie/fromagerie2_600x320.jpg" alt="fromagerie" class="img_mobile">
+                <h2>Fromagerie</h2>
+            </div>
+            <div>
+                <img src="images/categorie/fruits_et_legumes400x320.jpg" alt="fruits et legumes" class="img_grande">
+                <img src="images/categorie/fruits_et_legumes600x320.jpg" alt="fruits et legumes" class="img_mobile">
+                <h2>Fruits et legumes</h2>
+            </div>
+            <div>
+                <img src="images/categorie/boissons400x320.jpg" alt="boissons" class="img_grande">
+                <img src="images/categorie/boissons600x320.jpg" alt="boissons" class="img_mobile">
+                <h2>Boissons</h2>
+            </div>
+            <div>
+                <img src="images/categorie/bierre_et_vin400x320.jpg" alt="bierre et vin" class="img_grande">
+                <img src="images/categorie/bierre_et_vin600x320.jpg" alt="bierre et vin" class="img_mobile">
+                <h2>Bière et vin</h2>
+            </div>
+            <div>
+                <img src="images/categorie/produits_biologique400x320.jpg" alt="produits biologique" class="img_grande">
+                <img src="images/categorie/produits_biologique600x320.jpg" alt="produits biologique" class="img_mobile">
+                <h2>Produits biologique</h2>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="sociaux">
+            <div class="AproposDeNous">
+                <h3>À propos de nous</h3>
+                <a href="">Notre histoire</a>
+                <a href="">Alimentation</a>
+            </div>
+            <div class="Enligne">
+                <h3>En ligne</h3>
+                <a href="">Épicerie en ligne</a>
+            </div>
+            <div class="ServiceClientele">
+                <h3>Services à la clientèle</h3>
+                <a href="">Nous contacter</a>
+            </div>
+            <div class="reseauxSociaux">
+                <picture><img src="images/ReseauSociaux/facebook.png" alt="facebook"></picture>
+                <picture><img src="images/ReseauSociaux/49411.png" alt="youtube"></picture>
+                <picture><img src="images/ReseauSociaux/Sticker_instagram.png" alt="instagram"></picture>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+<script src="js/carousel.js"></script>
+</html>
